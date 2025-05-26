@@ -17,12 +17,15 @@
             color: #333;
             line-height: 1.6;
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 40px 20px;
+            flex: 1;
         }
 
         header {
@@ -122,6 +125,19 @@
             transform: scale(1.05);
         }
 
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(180deg, rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.9));
+            color: white;
+            font-size: 0.9em;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -155,7 +171,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="https://t.me/chgtmovie">CLICK HERE</a></h1>
+        <h1>Kaustav Ray's Projects - <a href="https://t.me/chgtmovie">CLICK HERE</a></h1>
     </header>
 
     <div class="container">
@@ -229,5 +245,9 @@
             <img src="https://ibb.co/rG6cXkyD" alt="Media image">
         </div>
     </div>
+
+    <footer>
+        <p>© 2025 Kaustav Ray. All rights reserved.</p>
+    </footer>
 </body>
 </html>
