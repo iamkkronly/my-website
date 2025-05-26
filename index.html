@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stavthon & Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, rgba(0, 123, 255, 0.9), rgba(0, 123, 255, 0.7));
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        header a:hover {
+            color: #ffeb3b;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        h3 {
+            color: #007BFF;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: linear-gradient(45deg, #28a745, #34c759);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, #218838, #2ba84a);
+        }
+
+        .media-section {
+            margin-top: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in-out;
+            text-align: center;
+        }
+
+        .media-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .media-section img:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            header {
+                padding: 40px 10px;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="https://t.me/freemovieslight">CLICK HERE</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p>Our Agency made a new programming language "Stavthon"</p>
+        </div>
+
+        <div class="section">
+            <h3>Programming and Development</h3>
+            <div class="button-group">
+                <a href="https://stavthon-interpreter-2-0.vercel.app/" class="button">Stavthon Interpreter</a>
+                <a href="https://iamkkronly.github.io/project.html.kk/" class="button">All HTML Projects</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Portfolios</h3>
+            <div class="button-group">
+                <a href="https://iamkkronly.github.io/portfolio.kk/?" class="button">My Portfolio</a>
+                <a href="https://iamkkronly.github.io/pork-76/" class="button">My Portfolio 2.0</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>AI Tools</h3>
+            <div class="button-group">
+                <a href="https://iamkkronly.github.io/us-gen/" class="button">AI Username Generator</a>
+                <a href="https://iamkkronly.github.io/math-solve/" class="button">AI Math Solver</a>
+                <a href="https://iamkkronly.github.io/humanizer-kk/" class="button">AI Humanizer</a>
+                <a href="https://iamkkronly.github.io/summ-kk/" class="button">AI Summarizer</a>
+                <a href="https://iamkkronly.github.io/mcq-kk/" class="button">AI Interview Questions Generator</a>
+                <a href="https://iamkkronly.github.io/math-solver-aikk/" class="button">AI Math Solver 2.0</a>
+                <a href="https://iamkkronly.github.io/deepai-kk/" class="button">Deepsearch AI 1.0</a>
+                <a href="https://iamkkronly.github.io/deepai-kk1/" class="button">Deepsearch AI 3.0</a>
+                <a href="https://iamkkronly.github.io/you-kk1/" class="button">AI YouTube Content Generator</a>
+                <a href="https://iamkkronly.github.io/aibot-kk1/" class="button">Rayflix AI</a>
+                <a href="https://iamkkronly.github.io/chat-bot-k2/" class="button">Rayflix AI v1.6</a>
+                <a href="https://iamkkronly.github.io/chat-bot-jk/" class="button">Rayflix AI v3.3</a>
+                <a href="https://ai-prompt-kk1.vercel.app/" class="button">AI Prompt Generator</a>
+                <a href="https://ai-model-train-ai.vercel.app/" class="button">Biggest deepThink AI v17.7</a>
+                <a href="https://ai-testing-model-k1.vercel.app/" class="button">AI Voice Assistant v97.8</a>
+                <a href="https://ai-web-kk-35.onrender.com" class="button">Top 100 AI Tools</a>
+                <a href="https://ai-chat-kktb.vercel.app/" class="button">AI Kaustav</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Entertainment and Media</h3>
+            <div class="button-group">
+                <a href="https://iamkkronly.github.io/movie-piracy-kkr44/" class="button">Movie Piracy by Kaustav</a>
+                <a href="https://iamkkronly.github.io/rayflix-news/" class="button">Fake News Maker</a>
+                <a href="https://iamkkronly.github.io/live-news-kk/" class="button">Live News</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Miscellaneous</h3>
+            <div class="button-group">
+                <a href="https://iamkkronly.github.io/sign.in.kk/#" class="button">Secret Key</a>
+                <a href="https://iamkkronly.github.io/test.kk/" class="button">Only 18+</a>
+                <a href="https://iamkkronly.github.io/hin.kk/" class="button">Master Course</a>
+                <a href="https://iamkkronly.github.io/insta.kk/" class="button">Instagram Algorithm</a>
+                <a href="https://iamkkronly.github.io/3d-kk/" class="button">Surprise</a>
+                <a href="https://t.me/darkuv7h" class="button">Hidden Web</a>
+                <a href="https://iamkkronly.github.io/123/" class="button">Surprise 2.0</a>
+                <a href="https://iamkkronly.github.io/tapswap-kk/" class="button">Gov Tap to Earn</a>
+            </div>
+        </div>
+
+        <div class="media-section">
+            <img src="https://ibb.co/rG6cXkyD" alt="Media image">
+        </div>
+    </div>
+</body>
+</html>
